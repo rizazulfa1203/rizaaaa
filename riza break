@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+	//membuat program break
+
+		for ( int i = 10 ; i <= 50 ; i++){
+			if ( i > 25) break;
+			cout << i << endl;
+		}
+	return 0;
+}
